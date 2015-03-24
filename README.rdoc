@@ -1,0 +1,2 @@
+The files in this repository are either my tinkering with code, to understand how syntax works or snippets of code from
+other people which I ran to see the output.
