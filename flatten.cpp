@@ -4,10 +4,10 @@
 head
 |
 node1 -> node2 -> node3	-> end4 -> node5 -> node6 -> node11 -> node12 -> node13 -> NULL
-												|
-												node7 -> node8 -> NULL;
-												|
-												node9 -> node10 -> NULL
+									|
+									node7 -> node8 -> NULL;
+									|
+									node9 -> node10 -> NULL
 
 
 Node * flatten(Node * self){

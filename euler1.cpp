@@ -15,21 +15,13 @@ int main() {
         unsigned long long int summation = 0, sumFifteen, sumFive, sumThree;
         unsigned long long int threeLimit = maxLimit/3, fiveLimit = maxLimit/5, fifteenLimit = maxLimit/15;
 
-        while((++l) <= fifteenLimit){
-            summation += l;
-        }
+        summation = (fifteenLimit*(fifteenLimit+1))/2;
         sumFifteen = summation * 15;
-        summation += l;
 
-        while((++l) <= fiveLimit){
-            summation += l;
-        }
+        summation = (fiveLimit*(fiveLimit+1))/2;
         sumFive = summation * 5;
-        summation += l;
         
-        while((++l) <= threeLimit){
-            summation += l;
-        }
+        summation = (threeLimit*(threeLimit+1))/2;
         sumThree = summation * 3;
         
         accumulator = sumThree + sumFive - sumFifteen;
